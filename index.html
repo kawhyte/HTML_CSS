@@ -9,42 +9,57 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Mario</title>
+    <title>Mario Forms</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="">
 </head>
 
 <body>
-    <div>
-        <h1> This is my <em><br><a href="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?ixlib=rb-1.2.1&auto=format&fit=crop&w=1633&q=80">Link</a> </em> page </h1>
-        <div>
-            <h2> This is my <em>Mario </em> page </h2>
-            <h3> This is my <em>Mario </em> page </h3>
-            <h4> This is my <em>Mario </em> page </h4>
-            <h5> This is my <em>Mario </em> page </h5>
-            <h6> This is my <em>Mario </em> page </h6>
-            <p>Paragraph: <strong>Whyte </strong> </p>
-        </div>
-<hr>
-<!-- sbjsb   qjbsjkq bsjkb   qjk -->
-<div>
-    <ul>
-        <li> This is my list </li>
-        <li> This is my list </li>
-        <li> This is my list </li>
-        <li> This is my list </li>
-    </ul>
-</div><blockquote cite="">
 
-    I am a para sxsqxsqxq
-</blockquote>
-<span style="color:rgb(149, 170, 46)"> Spanner</span>
-</div>
+    <h1>Forms</h1>
+    <form>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Name">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="password">
+
+        <p>Select an option:</p>
+        <input type="radio" name="age" value="0-25" id="1">
+        <label for="1">0-25</label>
+
+        <input type="radio" name="age" value="26-50" id="2">
+        <label for="2">26-50</label>
+
+        <input type="radio" name="age" value="51-100" id="3" checked=true>
+        <label for="3">51-100</label>
+
+        <br><br>
+
+        <label for="">Security Question</label>
+        <select name="question" id="question">
+            <option value="q1">What is your name</option>
+            <option value="q2">What is your Color</option>
+            <option value="q3">How old are you?</option>
 
 
-<img src="https://images.unsplash.com/photo-1446941611757-91d2c3bd3d45?ixlib=rb-1.2.1&auto=format&fit=crop&w=1633&q=80" alt="moon">
+        </select>
 
+        <br><br>
+        <label for="">Answer</label>
+        <input type="text" name="answer" id="answer">
+
+        <br><br>
+        <label for="bio">Bio</label><br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Enter data ..."></textarea>
+<br>
+        <input type="submit" name="" id="" value="Enter">
+
+    </form>
 
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
