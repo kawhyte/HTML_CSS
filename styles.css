@@ -1,43 +1,49 @@
-/* p.error{
-background-color: rgb(0, 153, 255);
+header{
+background-color: rgb(221, 0, 0);
+padding: 20px;
+text-align: center;
+position: fixed;
+width: 100%;
+z-index: 1;
+top: 0;
+left: 0;
+
 }
 
-p.success{
-    background-color: brown;
+header h1{
+
+color: white;
+border: 8px solid white;
+padding: 6px 12px;
+display: inline-block;
+border-radius: 36px;
+
 }
-p.success.feedback{
-   
-    border: 20px;
-    border-style: dotted;
-    border-color: blue;
+.banner{
+    position: relative; 
 }
 
-p#content {
+.banner img{
+max-width: 100%;
 
-    background-color: darkgoldenrod;
-    padding: 20px;
-} */
-
-/* div.error{
-    background-color: aquamarine;
-} */
-
-/* a[href$=".com"]{
-    background-color: rgb(240, 6, 6);
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: bolder;
-    text-transform: capitalize;
-} */
-
-div{
-    color: lightcoral;
-    border: 1px solid blueviolet ;
-    margin: 40px;
-    font-weight: bold;
 }
-p{
-    border: inherit;
-    margin: inherit;
-    color: crimson;
+
+.banner .welcome{
+background-color: orange;
+color: aliceblue;
+position: absolute;
+left: 0px;
+top: 80px;
+bottom: 30%;
+padding: 20px;
+
 }
+.welcome h2 {
+font-size: 60px;
+}
+.welcome h2 span{
+
+    font-size: 1.3em;
+}
+
+
